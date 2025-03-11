@@ -1,0 +1,19 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "B Yekan", tahome, arial;
+}
+
+.menu {
+  display: flex;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: lightgrey;
+}
