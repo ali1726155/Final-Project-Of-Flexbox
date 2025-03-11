@@ -10,10 +10,34 @@ body {
   font-family: "B Yekan", tahome, arial;
 }
 
-.menu {
+.header {
   display: flex;
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background-color: lightgrey;
+  background-color: lightgray;
+}
+
+.header-top{
+  display: flex;
+}
+
+.header-top-left{
+  display: flex;
+}
+
+.header-top-right{
+  display: flex;
+}
+
+.header-top-right-list{
+  display: flex;
+}
+
+.header-top-right-list-items{
+  list-style-type: none;
+}
+
+.header .header-top .header-top-right img{
+  background-color: skyblue;
 }
