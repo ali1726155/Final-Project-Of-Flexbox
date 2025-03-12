@@ -63,6 +63,7 @@ body {
 
 .header .header-top .header-top-right img{
   background-color: rgb(166, 166, 202);
+  border-radius: 8px;
 }
 
 .header-top-right-list-items:hover{
