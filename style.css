@@ -20,10 +20,9 @@ body {
 
 .header-top {
   display: flex;
-  align-items:center;
+  align-items: center;
   flex-flow: row;
   justify-content: space-between;
-  background-color: whitesmoke;
   border-radius: 8px;
   width: 100%;
 }
@@ -54,7 +53,7 @@ body {
 }
 
 .login {
-  background-color:blue;
+  background-color: blue;
   color: whitesmoke;
   width: 40px;
   height: 30px;
@@ -62,29 +61,52 @@ body {
   border-radius: 10px;
 }
 
-.signin{
+.signin {
   color: blue;
 }
 
-.header .header-top .header-top-right img{
+.header .header-top .header-top-right img {
   background-color: rgb(166, 166, 202);
   border-radius: 8px;
 }
 
-.header-top-right-list-items:hover{
+.header-top-right-list-items:hover {
   cursor: pointer;
   color: rgb(21, 21, 199);
 }
 
 /* header buttom */
 
-.header-buttom{
-  
+.header-buttom {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
-.header-buttom-text{
-
+.header-buttom-text {
+  width: 40%;
+  line-height: 32px;
+  font-size: 18px;
 }
-.header-buttom-svh{
 
+.header-buttom-svg {
+  width: 60%;
+  text-align: center;
+}
+
+.header-buttom-text-h1 {
+  color: rgb(66, 65, 65);
+}
+
+.header-buttom-text-intro {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  color: blue;
+}
+
+.header-buttom-text-text {
+  text-align: justify;
+  color: rgb(66, 65, 65);
 }
