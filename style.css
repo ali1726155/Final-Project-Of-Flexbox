@@ -50,6 +50,7 @@ body {
 .header-top-right-list-items {
   list-style-type: none;
   color: rgb(100, 100, 100);
+  font-size: 18px;
 }
 
 .login {
@@ -59,6 +60,10 @@ body {
   height: 30px;
   text-align: center;
   border-radius: 10px;
+}
+
+.signin{
+  color: blue;
 }
 
 .header .header-top .header-top-right img{
