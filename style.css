@@ -15,29 +15,57 @@ body {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background-color: lightgray;
+  border-radius: 8px;
 }
 
-.header-top{
+.header-top {
   display: flex;
+  align-items:center;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  width: 100%;
 }
 
-.header-top-left{
+.header-top-left {
   display: flex;
+  width: 10%;
+  justify-content: space-around;
 }
 
-.header-top-right{
+.header-top-right {
   display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
 }
 
-.header-top-right-list{
+.header-top-right-list {
   display: flex;
+  width: 68%;
+  justify-content: space-around;
 }
 
-.header-top-right-list-items{
+.header-top-right-list-items {
   list-style-type: none;
+  color: rgb(100, 100, 100);
+}
+
+.login {
+  background-color:blue;
+  color: whitesmoke;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .header .header-top .header-top-right img{
-  background-color: skyblue;
+  background-color: rgb(166, 166, 202);
+}
+
+.header-top-right-list-items:hover{
+  cursor: pointer;
+  color: rgb(21, 21, 199);
 }
