@@ -123,19 +123,16 @@ body {
 }
 
 .host-heading {
-  /* background-color: aqua; */
   text-align: center;
   padding-top: 30px;
 }
 
 .host-pages {
-  /* background-color: darkgray; */
   display: flex;
   margin-top: 60px;
 }
 
 .host-pages-page {
-  /* background-color: lightpink; */
   border: 1px solid rgb(168, 167, 167);
   border-radius: 12px;
   margin: 0 13px;
@@ -155,10 +152,23 @@ body {
 }
 
 .host-pages-page-p {
-  /* background-color:lightcoral; */
   text-align: justify;
   padding-left: 23px;
   padding-right: 23px;
   padding-bottom: 14px;
   padding-top: 18px;
+}
+
+/* slide */
+
+.slides {
+}
+
+.slides-slide {
+}
+
+.slides-slide-text {
+}
+
+.slides-slide-svg {
 }
