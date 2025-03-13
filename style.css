@@ -114,19 +114,51 @@ body {
 /* pages */
 
 .host {
+  background: linear-gradient(to top, rgb(225, 252, 252), rgb(246, 255, 255));
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 
 .host-heading {
+  /* background-color: aqua; */
+  text-align: center;
+  padding-top: 30px;
 }
 
 .host-pages {
+  /* background-color: darkgray; */
+  display: flex;
+  margin-top: 60px;
 }
 
 .host-pages-page {
+  /* background-color: lightpink; */
+  border: 1px solid rgb(168, 167, 167);
+  border-radius: 12px;
+  margin: 0 13px;
+  margin-bottom: 15px;
 }
 
 .host-pages-page-h2 {
+  background-color: rgb(50, 127, 243);
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  border-radius: 9999px;
+  margin-top: -18px;
+  padding: 4px;
 }
 
 .host-pages-page-p {
+  /* background-color:lightcoral; */
+  text-align: justify;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 14px;
+  padding-top: 18px;
 }
